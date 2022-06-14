@@ -9,7 +9,7 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-NODE_EXTRA_CA_CERTS=/usr/local/share/ca-certificates/swroot.crt
+  NODE_EXTRA_CA_CERTS: /usr/local/share/ca-certificates/swroot.crt
 
 jobs:
   build:
